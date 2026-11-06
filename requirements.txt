@@ -1,0 +1,13 @@
+# Core data stack (versions tested on Python 3.13.3)
+pandas==3.1.1
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+requests==2.34.2
+scipy==1.18.1
+
+# Notebook execution
+jupyter==1.1.1
+nbconvert==7.17.2
+nbformat==5.11.1
+ipykernel==7.4.0

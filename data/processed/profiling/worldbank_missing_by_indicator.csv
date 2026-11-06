@@ -1,0 +1,6 @@
+,dtype,n_missing,pct_missing,n_unique
+gdp_per_capita_ppp_const2021intl,float64,7345,51.28,6977
+industry_value_added_pct_gdp,float64,5267,36.78,9015
+gdp_per_capita_const2015usd,float64,2789,19.47,11533
+population_wb,float64,30,0.21,14254
+urban_pop_pct,float64,0,0.0,13684

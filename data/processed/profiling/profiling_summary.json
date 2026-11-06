@@ -1,0 +1,407 @@
+{
+  "owid": {
+    "file_size_mb": 14.38,
+    "shape": [
+      50411,
+      79
+    ],
+    "year_min": 1750,
+    "year_max": 2024,
+    "n_entities": 254,
+    "dtype_counts": {
+      "float64": 76,
+      "str": 2,
+      "int64": 1
+    },
+    "duplicate_full_rows": 0,
+    "duplicate_country_year": 0,
+    "memory_mb": 36.5,
+    "n_cols_over_50pct_missing": 45,
+    "n_cols_over_20pct_missing": 72,
+    "median_pct_missing_across_cols": 52.8,
+    "pct_missing_selected": {
+      "population": 18.34,
+      "gdp": 69.75,
+      "co2": 41.71,
+      "co2_per_capita": 47.41,
+      "energy_per_capita": 79.0,
+      "consumption_co2": 89.98,
+      "trade_co2": 90.65,
+      "methane": 24.32,
+      "total_ghg": 24.32,
+      "primary_energy_consumption": 78.91,
+      "land_use_change_co2": 25.71,
+      "iso_code": 15.73
+    },
+    "n_non_country_entities": 36,
+    "n_non_country_rows": 7931,
+    "pct_rows_non_country": 15.73,
+    "non_country_examples": [
+      "Africa",
+      "Africa (GCP)",
+      "Asia",
+      "Asia (GCP)",
+      "Asia (excl. China and India)",
+      "Central America (GCP)",
+      "Europe",
+      "Europe (GCP)",
+      "Europe (excl. EU-27)",
+      "Europe (excl. EU-28)",
+      "European Union (27)",
+      "European Union (28)"
+    ],
+    "owid_prefixed_iso_codes": [],
+    "iso_missing_entities": 36,
+    "n_countries_proper": 218,
+    "bad_iso_length": 0,
+    "coverage_countries_only": {
+      "co2": {
+        "first_year": 1750,
+        "last_year": 2024,
+        "n_countries": 215
+      },
+      "co2_per_capita": {
+        "first_year": 1750,
+        "last_year": 2024,
+        "n_countries": 213
+      },
+      "gdp": {
+        "first_year": 1820,
+        "last_year": 2022,
+        "n_countries": 164
+      },
+      "population": {
+        "first_year": 1750,
+        "last_year": 2024,
+        "n_countries": 216
+      },
+      "primary_energy_consumption": {
+        "first_year": 1965,
+        "last_year": 2024,
+        "n_countries": 205
+      },
+      "consumption_co2": {
+        "first_year": 1990,
+        "last_year": 2023,
+        "n_countries": 120
+      },
+      "methane": {
+        "first_year": 1850,
+        "last_year": 2024,
+        "n_countries": 199
+      }
+    },
+    "rows_in_last_year": 218,
+    "co2_nonnull_in_last_year": 215,
+    "gdp_nonnull_in_last_year": 0,
+    "last_year_with_gdp": 2022,
+    "gdp_nonnull_in_last_gdp_year": 164,
+    "window": [
+      1990,
+      2022
+    ],
+    "window_rows": 7194,
+    "window_co2_pct_missing": 1.61,
+    "window_gdp_pct_missing": 24.8,
+    "window_pop_pct_missing": 0.92,
+    "window_co2_pc_pct_missing": 2.47,
+    "negative_values_by_column": {
+      "co2_growth_abs": 7316,
+      "co2_growth_prct": 7498,
+      "co2_including_luc": 476,
+      "co2_including_luc_growth_abs": 9354,
+      "co2_including_luc_growth_prct": 9479,
+      "co2_including_luc_per_capita": 464,
+      "co2_including_luc_per_gdp": 283,
+      "co2_including_luc_per_unit_energy": 215,
+      "cumulative_co2_including_luc": 238,
+      "cumulative_luc_co2": 2269,
+      "ghg_per_capita": 488,
+      "land_use_change_co2": 5708,
+      "land_use_change_co2_per_capita": 5669,
+      "share_global_co2_including_luc": 355,
+      "share_global_cumulative_co2_including_luc": 110,
+      "share_global_cumulative_luc_co2": 1443,
+      "share_global_luc_co2": 4773,
+      "share_of_temperature_change_from_ghg": 393,
+      "temperature_change_from_ch4": 99,
+      "temperature_change_from_ghg": 32,
+      "total_ghg": 488,
+      "trade_co2": 1597,
+      "trade_co2_share": 1591
+    },
+    "unexpected_negative_columns": {},
+    "zero_co2_rows_countries": 881,
+    "share_gt_100": 0,
+    "trade_co2_negative_rows": 1597,
+    "outliers_co2_per_capita_2022": {
+      "n": 213,
+      "n_outliers": 14,
+      "pct_outliers": 6.57,
+      "log10_scale": false
+    },
+    "outliers_co2_per_capita_2022_log": {
+      "n": 213,
+      "n_outliers": 2,
+      "pct_outliers": 0.94,
+      "log10_scale": true
+    },
+    "outliers_co2_2022_log": {
+      "n": 213,
+      "n_outliers": 0,
+      "pct_outliers": 0.0,
+      "log10_scale": true
+    },
+    "top5_co2_per_capita_2022": [
+      {
+        "country": "Qatar",
+        "co2_per_capita": 37.89
+      },
+      {
+        "country": "Brunei",
+        "co2_per_capita": 26.87
+      },
+      {
+        "country": "Kuwait",
+        "co2_per_capita": 25.24
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "co2_per_capita": 25.06
+      },
+      {
+        "country": "Bahrain",
+        "co2_per_capita": 24.67
+      }
+    ],
+    "top5_pop_of_top_per_capita": [
+      {
+        "country": "Qatar",
+        "population": 2892466.0
+      },
+      {
+        "country": "Brunei",
+        "population": 455374.0
+      },
+      {
+        "country": "Kuwait",
+        "population": 4589514.0
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "population": 1495923.0
+      },
+      {
+        "country": "Bahrain",
+        "population": 1533460.0
+      }
+    ],
+    "co2_per_capita_2022_median": 3.16,
+    "co2_per_capita_2022_max_over_median": 12.0,
+    "skew_co2_pc_2022": 2.53,
+    "skew_log_co2_pc_2022": -0.6,
+    "n_countries_pop_lt_1m_2022": 57,
+    "n_small_in_top20_pc": 6
+  },
+  "worldbank": {
+    "file_size_mb": 6.46,
+    "shape_long": [
+      87780,
+      7
+    ],
+    "indicators": {
+      "NY.GDP.PCAP.KD": "gdp_per_capita_const2015usd",
+      "NY.GDP.PCAP.PP.KD": "gdp_per_capita_ppp_const2021intl",
+      "SP.POP.TOTL": "population_wb",
+      "SP.URB.TOTL.IN.ZS": "urban_pop_pct",
+      "NV.IND.TOTL.ZS": "industry_value_added_pct_gdp"
+    },
+    "source_last_updated": "['2026-10-08']",
+    "n_entities": 266,
+    "n_aggregates": 44,
+    "n_without_metadata_match": 5,
+    "unmatched_metadata_examples": [
+      "High income",
+      "Low income",
+      "Lower middle income",
+      "Not classified",
+      "Upper middle income"
+    ],
+    "year_min": 1960,
+    "year_max": 2025,
+    "duplicate_rows_entity_year_indicator": 0,
+    "rows_with_blank_iso3": 1650,
+    "entities_with_blank_iso3": [
+      "High income",
+      "Low income",
+      "Lower middle income",
+      "Not classified",
+      "Upper middle income"
+    ],
+    "n_country_rows_wide": 14322,
+    "n_countries": 217,
+    "pct_missing_by_indicator": {
+      "gdp_per_capita_ppp_const2021intl": 51.28,
+      "industry_value_added_pct_gdp": 36.78,
+      "gdp_per_capita_const2015usd": 19.47,
+      "population_wb": 0.21,
+      "urban_pop_pct": 0.0
+    },
+    "window_pct_missing_by_indicator": {
+      "gdp_per_capita_const2015usd": 6.41,
+      "gdp_per_capita_ppp_const2021intl": 10.63,
+      "population_wb": 0.0,
+      "urban_pop_pct": 0.0,
+      "industry_value_added_pct_gdp": 15.63
+    },
+    "last_year_any_gdp": 2025,
+    "gdp_countries_in_last_gdp_year": 186,
+    "gdp_countries_2022": 208,
+    "gdp_countries_2023": 203,
+    "gdp_countries_2024": 199,
+    "industry_countries_2022": 198,
+    "ppp_first_year": 1990,
+    "nonpositive_gdp_or_pop": 0,
+    "pct_outside_0_100_urban_industry": 0,
+    "negative_industry_share_rows": 0,
+    "outliers_gdp_pc_2022_log": {
+      "n": 208,
+      "n_outliers": 0,
+      "pct_outliers": 0.0,
+      "log10_scale": true
+    },
+    "gdp_pc_2022_median": 6599.0,
+    "gdp_pc_2022_max_over_min": 813.0,
+    "top5_gdp_pc_2022": [
+      {
+        "country_name": "Monaco",
+        "gdp_per_capita_const2015usd": 214360.0
+      },
+      {
+        "country_name": "Bermuda",
+        "gdp_per_capita_const2015usd": 109412.0
+      },
+      {
+        "country_name": "Luxembourg",
+        "gdp_per_capita_const2015usd": 107467.0
+      },
+      {
+        "country_name": "Ireland",
+        "gdp_per_capita_const2015usd": 97794.0
+      },
+      {
+        "country_name": "Switzerland",
+        "gdp_per_capita_const2015usd": 93360.0
+      }
+    ],
+    "skew_gdp_pc_2022": 3.25,
+    "skew_log_gdp_pc_2022": -0.06
+  },
+  "join": {
+    "owid_country_iso_pairs": 218,
+    "wb_country_iso_pairs": 217,
+    "iso3_matched": 206,
+    "name_matched": 177,
+    "iso_matched_but_name_differs": 29,
+    "name_mismatch_examples": [
+      {
+        "iso_code": "BHS",
+        "country": "Bahamas",
+        "country_name": "Bahamas, The"
+      },
+      {
+        "iso_code": "BRN",
+        "country": "Brunei",
+        "country_name": "Brunei Darussalam"
+      },
+      {
+        "iso_code": "COD",
+        "country": "Democratic Republic of Congo",
+        "country_name": "Congo, Dem. Rep."
+      },
+      {
+        "iso_code": "COG",
+        "country": "Congo",
+        "country_name": "Congo, Rep."
+      },
+      {
+        "iso_code": "CPV",
+        "country": "Cape Verde",
+        "country_name": "Cabo Verde"
+      },
+      {
+        "iso_code": "EGY",
+        "country": "Egypt",
+        "country_name": "Egypt, Arab Rep."
+      },
+      {
+        "iso_code": "FSM",
+        "country": "Micronesia (country)",
+        "country_name": "Micronesia, Fed. Sts."
+      },
+      {
+        "iso_code": "GMB",
+        "country": "Gambia",
+        "country_name": "Gambia, The"
+      }
+    ],
+    "owid_unmatched_n": 12,
+    "wb_unmatched_n": 11,
+    "owid_unmatched_names": [
+      "Anguilla",
+      "Antarctica",
+      "Bonaire Sint Eustatius and Saba",
+      "Christmas Island",
+      "Cook Islands",
+      "Montserrat",
+      "Niue",
+      "Saint Helena",
+      "Saint Pierre and Miquelon",
+      "Taiwan",
+      "Vatican",
+      "Wallis and Futuna"
+    ],
+    "wb_unmatched_names": [
+      "American Samoa",
+      "Cayman Islands",
+      "Channel Islands",
+      "Gibraltar",
+      "Guam",
+      "Isle of Man",
+      "Kosovo",
+      "Northern Mariana Islands",
+      "Puerto Rico (US)",
+      "St. Martin (French part)",
+      "Virgin Islands (U.S.)"
+    ],
+    "joined_rows_all_years": 13390,
+    "joined_rows_window": 6798,
+    "joined_countries_window": 206,
+    "complete_pairs_co2pc_gdppc_window": 6436,
+    "complete_pair_countries_window": 202,
+    "pct_window_rows_complete_pairs": 94.7,
+    "countries_with_all_33_years_complete": 184,
+    "countries_with_ge_25_years_complete": 192,
+    "countries_complete_pair_2022": 197,
+    "population_rel_diff_median_pct": 0.001,
+    "population_rel_diff_p99_pct": 8.85,
+    "population_rel_diff_gt5pct_rows": 195,
+    "population_rel_diff_gt5pct_countries": 15,
+    "population_rel_diff_gt5pct_examples": {
+      "Moldova": 33,
+      "Palestine": 33,
+      "Curacao": 30,
+      "Seychelles": 23,
+      "Bahrain": 14
+    },
+    "owid_gdp_pc_vs_wb_ppp_ratio_median": 0.695,
+    "owid_gdp_pc_vs_wb_ppp_ratio_iqr": [
+      0.609,
+      0.801
+    ],
+    "owid_gdp_last_year_in_join": 2022,
+    "preview_log_pearson_2022": 0.853,
+    "preview_spearman_2022": 0.857,
+    "preview_raw_pearson_2022": 0.508
+  }
+}
